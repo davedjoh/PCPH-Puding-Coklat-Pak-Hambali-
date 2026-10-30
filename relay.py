@@ -9,7 +9,7 @@ from urllib.parse import parse_qs, urlparse
 import httpx
 import websockets
 
-API_URL = os.getenv("API_URL", "https://openagentic.id/api/v1/chat/completions")
+API_URL = os.getenv("API_URL", "https://router.bynara.id/v1/chat/completions")
 API_KEY = os.environ["OPENAGENTIC_KEY"]
 RELAY_TOKEN = os.environ["RELAY_TOKEN"]
 MODEL = os.getenv("MODEL", "deepseek-v4.1-flash")
